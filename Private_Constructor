@@ -1,0 +1,17 @@
+package com.magician;
+
+public class Private_Constructor {
+
+	private Private_Constructor() {
+		System.out.println("Demo constructor is called");
+	}
+	
+	public void play() {
+		System.out.println("Play Method is called");
+	}
+	public static Private_Constructor obj() {
+		
+		return new Private_Constructor();
+		
+	}
+}
