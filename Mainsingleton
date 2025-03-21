@@ -1,0 +1,15 @@
+package com.magician;
+
+public class Mainsingleton {
+
+	public static void main(String[] args) {
+
+		Singleton s= Singleton.obj(); 
+		System.out.println(s);
+		Singleton s1 =Singleton.obj();
+		System.out.println(s1);
+		
+		
+	}
+
+}
