@@ -1,0 +1,15 @@
+package com.magician;
+
+public class Main_Demo {
+
+	public static void main(String[] args) {
+
+		Private_Constructor p = Private_Constructor.obj();
+		p.play();
+		Private_Constructor p1 =Private_Constructor.obj();
+		System.out.println(p);
+		System.out.println(p1);
+		
+	}
+
+}
