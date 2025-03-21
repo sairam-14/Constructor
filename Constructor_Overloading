@@ -1,0 +1,29 @@
+package com.magician;
+
+public class Constructor_Overloading {
+
+	int a;
+	String b;
+
+	Constructor_Overloading(String a, int b) {
+
+		System.out.println("Constructor with String,int par");
+
+	}
+
+	Constructor_Overloading(int a, String b) {
+		System.out.println("Constructor with int,String par");
+
+	}
+
+	public static void main(String[] args) {
+
+		
+		Constructor_Overloading m = new Constructor_Overloading("sai", 10);
+
+		Constructor_Overloading s = new Constructor_Overloading(10, "ram");
+
+	
+	}
+
+}
