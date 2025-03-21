@@ -1,0 +1,36 @@
+package com.magician;
+
+public class Constructor_Chaining {
+	
+	 Constructor_Chaining() {
+		 this(10);
+		 
+		 System.out.println("Constructor with no pa"); 
+	}
+	 
+	 Constructor_Chaining(int i) {
+		 
+		this('A');
+		System.out.println("Constructor with int para");
+		}
+	 Constructor_Chaining(char c) {
+		 this(10,'B');
+		 System.out.println("Constructor with char para");
+		}
+	 Constructor_Chaining(int i,char c) {
+		 
+		 System.out.println("Constructor with int, char para");
+		}
+	 
+	 public static void main(String[] args) {
+		 
+		 System.out.println("Main Start");
+		 
+		 Constructor_Chaining c = new Constructor_Chaining();
+		 
+		 System.out.println("Main Ends");
+		
+		 
+	}
+
+}
